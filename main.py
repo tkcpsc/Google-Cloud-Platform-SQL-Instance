@@ -1,3 +1,15 @@
+# Author - Thomas Kudey
+# Contact - Kudey@chapman.edu
+
+'''
+Supply Chain and Logistics Management Tool Utilizing Google Cloud Platform
+
+This Python script provides a framework for a commercial supply chain and logistics application utilizing a 
+convenient interface for interacting with a MySQL database hosted on Google Cloud Platform Suite. It includes 
+functions to execute various queries and stored procedures, handling tasks such as listing out-of-stock products, 
+finding total orders by customer, and updating stock quantities.
+'''
+
 import re
 import mysql.connector
 import configparser
