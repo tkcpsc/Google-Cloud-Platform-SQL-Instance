@@ -33,9 +33,6 @@ def connect_to_database():
         return None
 
 
-import mysql.connector
-
-
 def execute_and_print_query_results(conn, query):
     try:
         cursor = conn.cursor()
@@ -50,7 +47,7 @@ def execute_and_print_query_results(conn, query):
             # Print column names
             for name in column_names:
                 print(name, end=' ')
-            print("\n" + "-" * (len(column_names) * 10))  # Separator line
+            print("\n" + "-" * (len(column_names) * 12))  # Separator line
 
             # Iterate through each row in the results
             for row in query_results:
